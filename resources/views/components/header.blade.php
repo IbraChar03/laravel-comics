@@ -70,8 +70,7 @@
 
   </header>
   <div class="jumbotron">
-    <img src="" alt="">
-    <a href="" class="text-current">CURRENT SERIES </a>
+    
 </div>
 
 

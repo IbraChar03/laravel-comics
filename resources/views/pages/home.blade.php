@@ -1,6 +1,7 @@
 @extends("layouts.main-layout")
 @section("content")
 <div class=main-cont>
+    <a href="" class="text-current">CURRENT SERIES </a>
 
     <div class="container">
         <ul>

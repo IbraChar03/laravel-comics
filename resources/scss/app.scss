@@ -73,17 +73,7 @@ header {
     background-size: cover;
     position: relative;
 
-    .text-current {
-        padding: 20px 30px;
-        background-color: #0282f9;
-        color: white;
-        font-size: 25px;
-        position: absolute;
-        bottom: -10%;
-        right: 70%;
-        font-weight: bold;
 
-    }
 
     a {
         text-decoration: none;
@@ -233,6 +223,19 @@ header {
     align-items: center;
     background-color: #1c1c1c;
 
+    .text-current {
+        padding: 20px 30px;
+        background-color: #0282f9;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        bottom: 45%;
+        right: 70%;
+        font-weight: bold;
+        text-decoration: none;
+
+    }
+
     .container {
         max-width: 1200px;
         width: 70%;
@@ -335,4 +338,97 @@ header {
         }
     }
 
+}
+
+.action {
+    height: 70px;
+    background-color: #0282f9;
+}
+
+.details {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cont {
+        width: 50%;
+        background-color: red;
+        height: 100%;
+        display: flex;
+
+        .text {
+            width: 60%;
+            height: 100%;
+            padding: 10px 0px;
+            background-color: aqua;
+
+            .title {
+                color: #256589;
+                font-size: 25px;
+            }
+
+            .buttons {
+                display: flex;
+                margin-top: 15px;
+
+                .button-price {
+                    width: 70%;
+                    background-color: #55ba59;
+                    height: 50px;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 10px;
+
+                    .price {
+                        color: #86da75;
+
+                        span {
+                            color: white;
+                        }
+                    }
+
+                    span {
+                        color: #86da75;
+                    }
+                }
+
+                .button-av {
+                    width: 25%;
+                    background-color: #55ba59;
+                    height: 50px;
+                    border: none;
+                    margin-left: 2px;
+                    color: white;
+
+                }
+
+            }
+
+            .description {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .img-cont {
+        width: 40%;
+        height: 100%;
+        background-color: blue;
+
+        .text-img {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .img {
+            height: 200px;
+            width: 200px;
+        }
+    }
 }
