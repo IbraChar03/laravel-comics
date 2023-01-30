@@ -1,3 +1,99 @@
-.redd {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    height: 30px;
+    background-color: #0282f9;
+}
+
+header {
+
+    // height: 120px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .cont-header {
+        max-width: 1200px;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // background-color: aquamarine;
+    }
+
+    input {
+        width: 13%;
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: blue
+    }
+
+    input:focus {
+        border-color: green
+    }
+
+    .img-header {
+        width: 80px;
+        height: 80px;
+    }
+
+    ul {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 13px;
+                font-weight: bold;
+
+            }
+
+        }
+
+    }
+
+}
+
+.jumbotron {
+    width: 100%;
+    // height: 300px;
+    padding: 170px;
+    background-image: url("/resources/img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .text-current {
+        padding: 20px 30px;
+        background-color: #0282f9;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        bottom: -10%;
+        right: 70%;
+        font-weight: bold;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+
 }
