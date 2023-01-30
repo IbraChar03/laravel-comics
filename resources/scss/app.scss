@@ -345,8 +345,9 @@ header {
     background-color: #0282f9;
 }
 
-.details {
-    height: 500px;
+.first-main-details {
+    // height: 500px;
+    padding: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -354,18 +355,19 @@ header {
 
     .cont {
         width: 50%;
-        background-color: red;
-        height: 100%;
+        // background-color: red;
+        height: 80%;
         display: flex;
 
         .text {
-            width: 60%;
+            width: 70%;
             height: 100%;
             padding: 10px 0px;
-            background-color: aqua;
+            // background-color: aqua;
+            padding-right: 10px;
 
             .title {
-                color: #256589;
+                color: #237096;
                 font-size: 25px;
             }
 
@@ -415,20 +417,175 @@ header {
     }
 
     .img-cont {
-        width: 40%;
+        width: 30%;
         height: 100%;
-        background-color: blue;
+        // background-color: blue;
 
         .text-img {
-            height: 50px;
+            // height: 50px;
             width: 100%;
             display: flex;
             justify-content: flex-end;
+
         }
 
         .img {
-            height: 200px;
-            width: 200px;
+            height: 250px;
+            width: 100%;
         }
     }
+}
+
+.second-main-details {
+    // height: 500px;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+
+    .cont {
+        width: 50%;
+        // background-color: red;
+        height: 80%;
+        display: flex;
+
+        .talent {
+            width: 50%;
+            height: 100%;
+            // background-color: aqua;
+            padding-right: 10px;
+
+            .box {
+                width: 100%;
+                height: 50px;
+                // background-color: red;
+                display: flex;
+                justify-content: space-between;
+
+                .text1 {
+                    width: 30%;
+                    // background-color: #86da75;
+
+                    span {
+                        color: #237096;
+                    }
+                }
+
+                .text2 {
+                    width: 55%;
+                    // background-color: #256589;
+
+                    a {
+                        color: #0000EE;
+                        text-decoration: none;
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    .specs {
+        width: 50%;
+        height: 100%;
+        // background-color: blue;
+        padding-left: 10px;
+
+
+        .box {
+            width: 100%;
+            height: 50px;
+            // background-color: red;
+            display: flex;
+            justify-content: space-between;
+
+            .text1 {
+                width: 30%;
+                // background-color: #86da75;
+
+                span {
+                    color: #237096;
+                }
+            }
+
+            .text2 {
+                width: 55%;
+                // background-color: #256589;
+
+                a {
+                    color: #0000EE;
+                    text-decoration: none;
+                }
+
+            }
+        }
+
+
+
+    }
+
+
+}
+
+.cont-list {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+
+    .list {
+        width: 50%;
+        height: 100%;
+        background-color: red;
+        display: flex;
+
+        .card {
+            width: calc(100% / 4 - 5px);
+            margin: 0 5px;
+            height: 100%;
+            background-color: #237096;
+            display: flex;
+            justify-content: space-between;
+
+            .text {
+                width: 50%;
+                background-color: blue;
+                font-size: 13px;
+            }
+
+            .img {
+                width: 30%;
+                background-color: green;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .img-comics {
+                    height: 80%;
+                    width: 80%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+.text-title {
+    color: #237096;
+    font-size: 25px;
+}
+
+.line {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.line2 {
+    margin: 10px;
+
 }
