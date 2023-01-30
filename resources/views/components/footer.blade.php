@@ -61,7 +61,7 @@
 
         </div>
 
-        <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" class="img">
+        <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" class="img-dc">
 
     </div>
 </div>
@@ -73,9 +73,9 @@
             <strong class="text-follow">FOLLOW US</strong>
 
 
-            <a href="" v-for="(item, index) in imgSocial" :key="index">
+            {{-- <a href="" v-for="(item, index) in imgSocial" :key="index">
                 <img class="social-img" :src="item.img" alt="">
-            </a>
+            </a> --}}
         </div>
     </div>
 </div>

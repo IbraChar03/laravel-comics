@@ -1,8 +1,6 @@
 @extends("layouts.main-layout")
 @section("content")
-<div class="action">
-    
-</div>
+<div class="main-part">
 <div class="first-main-details">
  <div class="cont">
     <div class="text">
@@ -145,4 +143,5 @@
     </div>
 </div>
 </div> 
+</div>
 @endsection
