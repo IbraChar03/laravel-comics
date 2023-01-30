@@ -36,10 +36,6 @@ header {
         border-color: blue
     }
 
-    input:focus {
-        border-color: green
-    }
-
     .img-header {
         width: 80px;
         height: 80px;
@@ -223,6 +219,119 @@ header {
         .social-img {
             vertical-align: middle;
             margin-bottom: 10px;
+        }
+    }
+
+}
+
+.main-cont {
+    // height: 130px;
+    padding: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+
+    .container {
+        max-width: 1200px;
+        width: 70%;
+        height: 100%;
+        color: white;
+        font-size: 25px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                list-style-type: none;
+                width: calc(100% / 6);
+                height: 200px;
+                margin-bottom: 50px;
+
+                .text {
+                    font-size: 17px;
+                    width: 180px;
+                }
+
+                img {
+                    height: 160px;
+                    width: 150px;
+                }
+
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .cont-btn {
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn {
+                padding: 10px 50px;
+                background-color: #0282f9;
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+            }
+
+        }
+
+    }
+
+}
+
+.second-main {
+    // height: 150px;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0282f9;
+    position: relative;
+    z-index: 50;
+
+
+    .container {
+        max-width: 1200px;
+        width: 70%;
+        height: 100%;
+        color: white;
+
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 13px;
+                    margin-left: 10px;
+                }
+
+                .img {
+                    height: 55px;
+                    width: 50px;
+                    vertical-align: middle;
+                    object-fit: contain;
+                }
+
+
+            }
         }
     }
 
