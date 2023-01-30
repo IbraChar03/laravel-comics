@@ -9,55 +9,55 @@
       </div>
       <ul>
         <li class="list-header">
-          <a>
+          <a href="">
             CHARACTERS
           </a>
 
         </li>
         <li class="list-header">
-            <a>
+            <a href="">
               COMICS
             </a>
   
           </li>
           <li class="list-header">
-            <a>
+            <a href="">
               MOVIES
             </a>
   
           </li>
           <li class="list-header">
-            <a>
+            <a href="">
               TV
             </a>
   
           </li>
           <li class="list-header">
-            <a>
+            <a href="">
               GAMES
             </a>
   
           </li>
           <li class="list-header">
-            <a>
+            <a href="">
              COLLECTIBLES
             </a>
   
           </li>
           <li class="list-header">
-            <a>
+            <a href="">
              VIDEOS
             </a>
   
           </li>
           <li class="list-header">
-            <a>
+            <a href="">
             FANS
             </a>
   
           </li>
           <li class="list-header">
-            <a>
+            <a href="">
              NEWS
             </a>
   
