@@ -588,6 +588,19 @@ header {
     }
 }
 
+.cont-comic {
+    height: 50px;
+    width: 100%;
+    background-color: #0282f9;
+    position: relative;
+
+    .img-comic {
+        position: absolute;
+        bottom: 40%;
+        right: 65%;
+    }
+}
+
 .text-title {
     color: #237096;
     font-size: 25px;
